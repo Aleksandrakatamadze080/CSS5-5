@@ -1,0 +1,560 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #040405;
+    font-family: inter;
+  }
+  .centerr {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .mainDiv {
+    margin-top: 112px;
+    display: flex;
+    flex-direction: column;
+    max-width: 1040px;
+    width: 100%;
+    gap: 112px;
+  }
+  
+  .headerDiv {
+    display: flex;
+    max-width: 1040px;
+    width: 100%;
+    justify-content: space-between;
+    padding: 16px 0;
+    align-items: center;
+  }
+  
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #003004;
+  }
+  
+  .headerUl {
+    align-items: center;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    max-width: 250px;
+    width: 100%;
+  }
+  
+  .headerLi {
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .wallet {
+    padding: 12px 24px;
+    border-radius: 24px;
+    background: #00ff1a;
+    color: black;
+  }
+  
+  .headerContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .vectorl{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .vector {
+    background-color: #00ff1a;
+    width: 91px;
+    height: 2px;
+  }
+  
+  .vectorP {
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  .sectionOne {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 555px;
+    width: 100%;
+  }
+  
+  h1 {
+    font-size: 72px;
+    color: #fff;
+    color: #fff;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+  }
+  
+  .headerP {
+    color: #7a7a7a;
+    font-size: 20px;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .green {
+    padding: 12px 24px;
+    border-radius: 24px;
+    background: #00ff1a;
+  }
+  
+  .black {
+    border-radius: 24px;
+    border: 1px solid #00ff1a;
+    padding: 12px 24px;
+    background: none;
+    color: #fff;
+  }
+  
+  .priceDiv {
+    max-width: 815px;
+    width: 100%;
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+    border-top: 1px solid #00ff1a;
+  }
+  
+  .price {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  h2 {
+    font-size: 32px;
+    color: #fff;
+  }
+  
+  .priceP {
+    color: #7a7a7a;
+    font-size: 20px;
+  }
+  
+  .frogContainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  .frog {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .frogVectorDiv {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+  }
+  
+  .frogvVector {
+    background-color: #00ff1a;
+    width: 91px;
+    height: 2px;
+  }
+  
+  .frogvVectorP {
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  h3 {
+    color: #fff;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+  }
+  
+  .frogP {
+    color: #7a7a7a;
+    font-size: 20px;
+  }
+  
+  .Withdrawals {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .rectangle {
+    border-radius: 50px;
+    background: #00ff1a;
+    width: 16px;
+    height: 16px;
+  }
+  
+  .paymentMethods {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  h4 {
+    font-size: 32px;
+    color: #fff;
+  }
+  
+  .methodsP {
+    color: #7a7a7a;
+    font-size: 16px;
+  }
+  
+  .howItWorks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+  }
+  
+  .process {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  .RegisterDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    width: 100%;
+  }
+  
+  .paymentLogoDiv {
+    display: flex;
+    max-width: 863px;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  .registerMain {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  .register {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    font-size: 24px;
+    color: #fff;
+    max-width: 245px;
+    width: 100%;
+  }
+  
+  .registerP {
+    font-size: 16px;
+    color: #7a7a7a;
+    text-align: center;
+  }
+  
+  .verticalRow {
+    width: 1px;
+    height: 86px;
+    background-color: #4a4a4e;
+  }
+  
+  .crvContainer {
+    display: flex;
+    gap: 32px;
+  }
+  
+  .crvSection {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 509px;
+    width: 100%ƒ;
+  }
+  
+  .depositDiv {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .depositSection {
+    padding: 0 16px 24px 16px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    color: #fff;
+    border-left: 2px solid #00ff1a;
+  }
+  
+  .depositSectionTwo {
+    padding: 0 16px 24px 16px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    color: #fff;
+    border-left: 2px solid #4a4a4e;
+  }
+  
+  .frog {
+    height: 481px;
+  }
+  
+  .customerMain {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  
+  .uls {
+    display: flex;
+    gap: 24px;
+  }
+  
+  .customerSection {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .customeDiv {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .gay {
+    width: 104px;
+    height: 104px;
+  }
+  
+  .servicesMain {
+    display: flex;
+    flex-direction: column;
+    background-color: #1c1c20;
+    padding: 24px 32px;
+  }
+  
+  .serviseSection {
+    display: flex;
+    flex-direction: column;
+    max-width: 440px;
+    width: 100%;
+    gap: 12px;
+  }
+  
+  .starsDiv {
+    display: flex;
+    gap: 13px;
+    align-items: center;
+  }
+  
+  .barces {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .newYorkDiv {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  
+  .smallVector {
+    display: flex;
+    width: 12px;
+    height: 1px;
+    background-color: #fff;
+  }
+  
+  .newYork {
+    color: #7a7a7a;
+    font-size: 14px;
+  }
+  
+  h4 {
+    color: #fff;
+    font-size: 20px;
+  }
+  
+  .bracesP {
+    font-size: 22px;
+    color: #b7b7b7;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 136.023%;
+    letter-spacing: 0.77px;
+  }
+  
+  span {
+    color: #00ff1a;
+  }
+  
+  .bracesDiv {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .paragraph {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .arrows {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .arrowsDiv {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .supportContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .supportDiv {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    gap: 12px;
+    background-color: #1c1c20;
+    color: #fff;
+    font-size: 24px;
+    max-width: 624px;
+    width: 100%;
+  }
+  
+  .phoneDiv {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+  }
+  
+  .phoneP {
+    font-size: 20px;
+  }
+  
+  .formDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+    padding: 24px 23px;
+    max-width: 392px;
+    width: 100%;
+    height: 100%;
+    background-color: #1c1c20;
+  }
+  
+  .formP {
+    font-size: 20px;
+    color: #fff;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  
+  .name {
+    background: none;
+    padding: 12px 16px;
+    border-radius: 4px;
+    border: 1px solid #565656;
+  }
+  
+  textarea {
+    background: none;
+    padding: 12px 16px;
+    border-radius: 4px;
+    border: 1px solid #565656;
+    height: 155px;
+    font-family: Inter;
+  }
+  
+  input::placeholder,
+  textarea::placeholder {
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+  }
+  
+  .button {
+    border-radius: 4px;
+    background: #00ff1a;
+    padding: 12px 16px;
+  }
+  
+  
+  footer {
+      display: flex;
+      justify-content: center;
+      margin-top: 225px;
+      padding: 40px 0;
+      border-top: 1px solid #00FF1A;
+  }
+  
+  .footerDiv {
+      display: flex;
+      justify-content: space-between;
+      max-width: 1040px;
+      width: 100%;
+      align-items: flex-start;
+  
+  }
+  
+  .footerUl {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      color: #fff;
+      list-style-type: none;
+  }
+  
+  .footerLi {
+      color: #7A7A7A;
+  }
+  
+  .followUsP {
+      color: #fff;
+      font-size: 16px;
+  }
+  
+  .followUs {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+  }
+  
+  .footerLogos {
+      display: flex;
+      gap: 16px;
+  }
